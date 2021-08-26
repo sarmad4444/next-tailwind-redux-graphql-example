@@ -1,0 +1,80 @@
+/* card css */
+.tournament .tournamentCard {
+  background-color: #fff;
+  width: 380px;
+  height: 630px;
+  border-radius: 20px;
+  padding: 30px 15px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.tournament .tournamentCard .img {
+  position: absolute;
+  width: 70px;
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tournament .tournamentCard .title {
+  font: 25px poppinsBd;
+  margin-top: 40px;
+  text-align: center;
+  color: var(--primaryBlue);
+}
+.tournament .tournamentCard .text {
+  font: 15px poppinsMd;
+  text-align: center;
+  color: #c7c7c7;
+}
+.tournament .tournamentCard .tag {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 8px 30px;
+  font: 14px poppinsBd;
+  color: var(--primaryBlue);
+  border-radius: 20px;
+  width: fit-content;
+  margin: 5px auto;
+}
+.tournament .tournamentCard .tag .starIcon {
+  width: 15px;
+  margin-right: 10px;
+}
+.tournament .tournamentCard .prizeText {
+  font: 38px poppinsBd;
+  margin-top: 50px;
+  color: var(--primaryBlue);
+  text-align: center;
+  line-height: 0.9;
+}
+.tournament .tournamentCard .prizesubText {
+  font: 16px poppinsMd;
+  color: #c7c7c7;
+  text-align: center;
+}
+.tournament .tournamentCard .items {
+  font: 14px poppinsSb;
+  color: var(--primaryBlue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.tournament .tournamentCard .registerButton {
+  font: 14px poppinsSb;
+  background-color: var(--primaryOrange);
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+.tournament .tournamentCard .registerButton:hover {
+  background-color: #c4572f;
+}

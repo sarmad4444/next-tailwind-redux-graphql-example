@@ -1,0 +1,30 @@
+.tournament {
+  padding: 20px 20px;
+}
+.tournament header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font: 50px poppinsBd;
+  color: #fff;
+}
+.tournament header .filter {
+  display: flex;
+  align-items: center;
+  font: 14px poppinsSb;
+  padding: 8px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  color: var(--primaryBlue);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tournament header .filter .svg {
+  width: 20px;
+  margin-left: 20px;
+}
+.tournament .totalTitle {
+  color: #fff;
+  font-size: 30px;
+}
